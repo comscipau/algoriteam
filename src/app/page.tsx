@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
       
-      <nav className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10 p-6 flex justify-between items-center">
+      <nav className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10 p-6 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
         <div className="flex items-center gap-3">
           <Image 
             src="/images/algoriteam.png"
@@ -28,8 +28,9 @@ export default function Portfolio() {
             Algoriteam
           </h1>
         </div>
-        <p className="text-sm text-gray-400 italic hidden sm:block">
-          Founded by Paulo Buenavente
+
+        <p className="text-xs sm:text-sm text-gray-400 italic text-center sm:text-right">
+          A labor of love by Paulo Buenavente
         </p>
       </nav>
 
