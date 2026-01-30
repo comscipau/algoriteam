@@ -5,6 +5,7 @@ const projects = {
     { id: 1, title: "Cryptok", src: "/images/web_1.png", link: "https://cryptok-lodgings.vercel.app/" },
     { id: 2, title: "ClubMonteCarlo", src: "/images/web_2.png", link: "https://cmc-new.vercel.app/" },
     { id: 3, title: "Grypto", src: "/images/web_3.png", link: "https://test-grypto.vercel.app/" },
+    { id: 4, title: "Lemon Teapot", src: "/images/web_4.png", link: "https://lemon-teapot.vercel.app/" },
   ],
   mobile: [
     { id: 1, title: "Cheershub", src: "/images/cheershub.png", link: "https://play.google.com/store/apps/details?id=com.algoriteam.cheershub&pcampaignid=web_share" },
